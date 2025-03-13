@@ -1,0 +1,30 @@
+void main(){
+  
+// Collections
+  
+// Lists are denoted by brackets
+  
+  List<String>names = ["Nav","Amrit","Barkat"];
+  
+  List<double> doubles = [23.22, 56.43, 22.11];
+  
+  /*
+  sets are unique items (no duplicates) denoted by curly braces.
+   */
+  
+  Set<num> numbers = {1,2,3,4};
+  
+  Map<String, int> ages = {"Nav": 19, "Amrit": 24};
+  
+  //for-in
+  for(var number in numbers){
+    print(number);
+   }
+  
+  //forEach iterates through key-value pairs.
+  ages.forEach((key, value) {
+    print('$key, $value');
+ 
+   });
+  
+  }
